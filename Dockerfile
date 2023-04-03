@@ -25,5 +25,5 @@ EXPOSE 8081 1935
 
 LABEL org.opencontainers.image.source="https://github.com/drunkod/cent7-nimble-publish-to-gcr"
 
-CMD ["nimble"]
+#CMD ["nimble"]
 
