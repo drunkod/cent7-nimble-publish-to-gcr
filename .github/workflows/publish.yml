@@ -20,6 +20,6 @@ jobs:
 
       - name: Build the cent7-nimble-publish-to-gcr Docker image
         run: |
-          docker build ../Dockerfile --tag ghcr.io/drunkod/cent7-nimble-publish-to-gcr:latest
+          docker build . --tag ghcr.io/drunkod/cent7-nimble-publish-to-gcr:latest
           docker run ghcr.io/drunkod/cent7-nimble-publish-to-gcr:latest
           docker push ghcr.io/drunkod/cent7-nimble-publish-to-gcr:latest
