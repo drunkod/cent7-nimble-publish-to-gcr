@@ -18,12 +18,12 @@ RUN yum install -y nimble nimble-srt-1.5
 # Copy your application files to the container
 #COPY <path-to-your-application> /<destination-folder-in-container>
 
-# Set the working directory
-#WORKDIR /<destination-folder-in-container>
+# Set working directory
+WORKDIR /home/${USERNAME}
 
 EXPOSE 8081 1935
 
-#LABEL org.opencontainers.image.source="https://github.com/drunkod/cent7-nimble-publish-to-gcr"
+LABEL org.opencontainers.image.source="https://github.com/drunkod/cent7-nimble-publish-to-gcr"
 
-#CMD ["nimble"]
-
+# Start a Bash shell
+CMD ["/bin/bash"]
