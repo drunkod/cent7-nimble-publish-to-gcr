@@ -1,5 +1,3 @@
-
-
 FROM centos:7
 
 #MAINTAINER Your Name <your.email@example.com>
