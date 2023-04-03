@@ -1,6 +1,6 @@
-#FROM centos:7
+FROM centos:7
 # Use the latest CoreOS 7 base image
-FROM quay.io/coreos/base:latest
+#FROM quay.io/coreos/base:latest
 
 #MAINTAINER Your Name <your.email@example.com>
 
