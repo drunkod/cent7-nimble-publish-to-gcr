@@ -23,7 +23,7 @@ RUN yum install -y nimble nimble-srt-1.5
 
 EXPOSE 8081 1935
 
-LABEL org.opencontainers.image.source="https://github.com/drunkod/cent7-nimble-publish-to-gcr"
+#LABEL org.opencontainers.image.source="https://github.com/drunkod/cent7-nimble-publish-to-gcr"
 
 #CMD ["nimble"]
 
